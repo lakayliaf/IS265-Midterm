@@ -7,6 +7,8 @@
 
 
 export const annotate = (input) => {
+
+  
   for (let i = 0; i < input.length; i++) {
     for (let m = 0; m < input[i].length; m++) {
       if (input[i][m] !== "*") {
@@ -32,5 +34,6 @@ export const annotate = (input) => {
       }
     }
   }
+  
   return input;
 };
